@@ -8,8 +8,19 @@ public class MessagePrinter {
 
     private MessageProducer producer;
 
-    @Autowired
+    MessagePrinter() {
+    }
+
     public MessagePrinter(MessageProducer producer) {
+        this.producer = producer;
+    }
+
+    public MessageProducer getProducer() {
+        return producer;
+    }
+
+    @Autowired
+    public void setProducer(MessageProducer producer) {
         this.producer = producer;
     }
 
