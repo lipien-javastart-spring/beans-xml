@@ -9,3 +9,5 @@ W
 'src/main/java/beans/MessagePrinter.java,7\b\7b0fdd9765809554e1d7d7783c91bc901ba15b84
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+X
+(src/main/java/app/ApplicationConfig.java,d\a\da9afe7e6b00aca91057baa9d50c1db05579cbc3
