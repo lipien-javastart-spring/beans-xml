@@ -1,4 +1,4 @@
-package beans;
+package pl.javastart.beans;
 
 public interface MessageProducer {
 

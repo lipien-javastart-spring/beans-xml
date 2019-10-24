@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/SpringDiApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/app/ApplicationConfig.java">
           <value>
             <set />
@@ -39,6 +44,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/beans/UpperCaseMessageDecorator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/SpringDiApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/MessagePrinter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/SimpleMessageProducer.java">
           <value>
             <set />
           </value>
