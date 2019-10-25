@@ -7,10 +7,9 @@ import org.springframework.stereotype.Component;
 public class MessagePrinter {
 
     @Autowired
-    @Message(type = Message.MessageType.FILE)
     private MessageProducer producer;
 
-    public void print() {
-        System.out.println("Message produced: " + producer.getMessage());
+    public void printMessage() {
+        System.out.println(producer.getNumber());
     }
 }
