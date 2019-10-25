@@ -98,6 +98,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/producers/FileMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/producers/FileMessageProducer.java">
           <value>
             <set />

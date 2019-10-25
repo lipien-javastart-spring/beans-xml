@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 @Component
-@Qualifier("fileMessageProducer")
+@FileMessage
 public class FileMessageProducer implements MessageProducer {
 
     @Override
