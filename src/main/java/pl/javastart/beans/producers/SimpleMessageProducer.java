@@ -1,10 +1,11 @@
 package pl.javastart.beans.producers;
 
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("simpleMessageProducer")
+@Producer(type = Producer.ProducerType.SIMPLE)
+@Primary
 public class SimpleMessageProducer implements MessageProducer {
     @Override
     public String getMessage() {

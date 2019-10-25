@@ -1,6 +1,5 @@
 package pl.javastart.beans.producers;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
@@ -11,7 +10,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 @Component
-@FileMessage
+@Producer(type = Producer.ProducerType.FILE)
 public class FileMessageProducer implements MessageProducer {
 
     @Override

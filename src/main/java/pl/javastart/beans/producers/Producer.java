@@ -13,6 +13,11 @@ import java.lang.annotation.Target;
         ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Qualifier
-public @interface FileMessage {
+public @interface Producer {
 
+    ProducerType type();
+
+    public enum ProducerType {
+        SIMPLE, FILE;
+    }
 }
