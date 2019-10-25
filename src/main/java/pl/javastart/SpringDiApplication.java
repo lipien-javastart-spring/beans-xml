@@ -1,6 +1,6 @@
 package pl.javastart;
 
-import pl.javastart.beans.printers.MessagePrinter;
+import pl.javastart.beans.MessagePrinter;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

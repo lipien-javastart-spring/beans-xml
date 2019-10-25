@@ -1,4 +1,4 @@
-package pl.javastart.beans.producers;
+package pl.javastart.beans;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 
@@ -7,17 +7,19 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target({ElementType.FIELD,
+@Target({
+        ElementType.FIELD,
         ElementType.METHOD,
         ElementType.TYPE,
-        ElementType.PARAMETER})
+        ElementType.PARAMETER
+})
 @Retention(RetentionPolicy.RUNTIME)
 @Qualifier
-public @interface Producer {
+public @interface Message {
 
-    ProducerType type();
+    MessageType type();
 
-    public enum ProducerType {
+    public enum MessageType {
         SIMPLE, FILE;
     }
 }

@@ -58,12 +58,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/FileMessageProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/Message.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/MessagePrinter.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/MessageProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/SimpleMessageProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/config/AppConfig.java">
           <value>
             <set />
           </value>
@@ -124,6 +144,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/beans/producers/SimpleMessageProducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/pl/javastart/config/AppConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/appConfig.properties">
           <value>
             <set />
           </value>
